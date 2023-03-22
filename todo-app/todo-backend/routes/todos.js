@@ -8,6 +8,9 @@ router.get('/', async (_, res) => {
   res.send(todos);
 });
 
+
+
+
 /* POST todo to listing. */
 router.post('/', async (req, res) => {
   const todo = await Todo.create({
@@ -20,10 +23,17 @@ router.post('/', async (req, res) => {
 const singleRouter = express.Router();
 
 const findByIdMiddleware = async (req, res, next) => {
+  try{
   const { id } = req.params
   req.todo = await Todo.findById(id)
-  if (!req.todo) return res.sendStatus(404)
-
+  if (!req.todo) {
+     return  res.status(400).send("Todo Not found")
+     
+   }
+  return res.status(200).send(req.todo)}
+  catch (error){
+   return res.status(400).send(error)
+  }
   next()
 }
 
