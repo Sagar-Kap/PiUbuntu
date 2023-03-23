@@ -48,4 +48,16 @@ OK
 1) "todocounter"
 127.0.0.1:6379> [0K127.0.0.1:6379> keys *[0;90;49m [0m[22C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[32C[0K127.0.0.1:6379> get todocounter[0;90;49m [0m[31C[0K127.0.0.1:6379> get todocounter[31C
 "9"
-127.0.0.1:6379> [0K127.0.0.1:6379> get todocounter[0;90;49m [0m[31C[0K127.0.0.1:6379> keys *[0;90;49m [0m[22C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[32C[0K127.0.0.1:6379> get todocounter[0;90;49m [0m[31C[0K127.0.0.1:6379> keys *[0;90;49m [0m[22C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[32C[0K127.0.0.1:6379> keys *[0;90;49m [0m[22C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[32C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[31C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[30C[0K127.0.0.1:6379> del topdocounter[0;90
+127.0.0.1:6379> [0K127.0.0.1:6379> get todocounter[0;90;49m [0m[31C[0K127.0.0.1:6379> keys *[0;90;49m [0m[22C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[32C[0K127.0.0.1:6379> get todocounter[0;90;49m [0m[31C[0K127.0.0.1:6379> keys *[0;90;49m [0m[22C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[32C[0K127.0.0.1:6379> keys *[0;90;49m [0m[22C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[32C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[31C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[30C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[29C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[28C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[27C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[26C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[25C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[24C[0K127.0.0.1:6379> del topdocounter[0;90;49m [key ...][0m[23C[0K127.0.0.1:6379> del todocounter[0;90;49m [key ...][0m[22C[0K127.0.0.1:6379> del todocounter[0;90;49m [key ...][0m[31C[0K127.0.0.1:6379> del todocounter[31C
+(integer) 1
+127.0.0.1:6379> [0K127.0.0.1:6379> del todocounter[0;90;49m [key ...][0m[31C[0K127.0.0.1:6379> del todocounter[31C
+(integer) 1
+127.0.0.1:6379> [0K127.0.0.1:6379> del todocounter[0;90;49m [key ...][0m[31C[0K127.0.0.1:6379> del todocounter[31C
+(integer) 1
+127.0.0.1:6379> [0K127.0.0.1:6379> e[17C[0K127.0.0.1:6379> ex[18C[0K127.0.0.1:6379> exi[19C[0K127.0.0.1:6379> exit[20C[0K127.0.0.1:6379> exit[20C
+[?2004hroot@da690bf2ec11:/data# exit
+[?2004lexit
+[?2004h]0;pi@ras: ~/Projects/containers/todo-app/todo-backend[01;32mpi@ras[00m:[01;34m~/Projects/containers/todo-app/todo-backend[00m$ exit
+[?2004lexit
+
+Script done on 2023-03-23 16:48:32+02:00 [COMMAND_EXIT_CODE="0"]
