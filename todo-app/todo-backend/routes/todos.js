@@ -1,6 +1,7 @@
 const express = require("express");
 const { Todo } = require("../mongo");
 const router = express.Router();
+const { getAsync, setAsync } = require("../mongo");
 
 /* GET todos listing. */
 router.get("/", async (_, res) => {
@@ -14,6 +15,9 @@ router.post("/", async (req, res) => {
     text: req.body.text,
     done: false,
   });
+  const current = await getAsync("todocounter");
+  const newValue = parseInt(current) + 1;
+  await setAsync("todocounter", newValue.toString());
   res.send(todo);
 });
 
