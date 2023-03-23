@@ -5,6 +5,7 @@ const { Todo } = require("../mongo");
 
 let getAsync;
 let setAsync;
+let client;
 
 if (!REDIS_URL) {
   const redisIsDisabled = () => {
@@ -14,7 +15,7 @@ if (!REDIS_URL) {
   getAsync = redisIsDisabled;
   setAsync = redisIsDisabled;
 } else {
-  const client = redis.createClient({
+  client = redis.createClient({
     url: REDIS_URL,
   });
 
@@ -30,4 +31,5 @@ if (!REDIS_URL) {
 module.exports = {
   getAsync,
   setAsync,
+  client,
 };
